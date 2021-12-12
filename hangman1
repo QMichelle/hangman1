@@ -44,7 +44,7 @@
           //subtract a guess
           guesses = guesses - 1;
           $("#guesses").html(guesses);
-          if (guesses <= 0)   {
+          if (guesses < = 0)   {
           $("#messages").text("Out of guesses! You Lose!");
           finished = true;
           }
